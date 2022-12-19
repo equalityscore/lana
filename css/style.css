@@ -1,0 +1,31 @@
+
+
+body{
+    background: url('../img/background.jpg');
+    background-size: cover; 
+    
+}
+#container{
+    max-height: 80%;
+    overflow: scroll;
+    scroll-behavior: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20% auto;
+    height: 30vh;
+    width: 80%;
+    background: white;
+}
+
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-size: 2rem;
+    width: 50%;  /* el ancho del elemento div */
+    justify-content:    
+}
+
