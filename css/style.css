@@ -1,10 +1,54 @@
+ress,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 
 body{
     background: url('../img/background.jpg');
     background-size: cover; 
-    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Arial";
+    font-size: 1.5rem;
+    line-height: 1.2;    
 }
+
+#modal1{ 
+    border: 1px solid black;
+    padding: 80px;
+    margin: 20% auto;
+    height: 40vh;
+    width: 50vw;
+    background: white;
+    z-index: 999;
+    box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
+}
+   
+
+.h2wrapper {
+    display:flex;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+.buttonwrapper{
+    display:flex;
+    margin-top: 7vh;
+}
+
+button{    
+    margin: 0 auto;
+    height: 60px;
+    width: 250px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    background: orange;
+    border: orange;
+    color: white;
+}
+
+
 #container{
     max-height: 80%;
     overflow: scroll;
@@ -18,14 +62,16 @@ body{
 }
 
 
+
+
 #text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: left; 
     text-align: left;
     font-size: 2rem;
-    width: 50%;  /* el ancho del elemento div */
-    justify-content:    
-}
+    width: 100%;  /* el ancho del elemento div */
+       
+} 
 
