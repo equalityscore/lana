@@ -1,4 +1,4 @@
-const listOfReds = ['polla', 'zorra', 'poya']
+const listOfReds = ['polla', 'zorra', 'poya', 'coña', 'guarra']
 
 var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
 var recognition = new SpeechRecognition();
